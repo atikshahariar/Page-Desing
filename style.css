@@ -1,0 +1,51 @@
+*{
+    margin: 10;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+#container{
+    text-align: center;
+    width: 40%;
+    background-color:cornflowerblue;
+    margin: 5% auto;
+    padding: 20px;
+}
+#container h1{
+    font-size: 40px;
+    margin: 25px 0px;
+}
+input,
+label{
+display: block;
+width: 80%;
+margin: auto;
+}
+label{
+    font-size: 20px;
+    text-transform: uppercase;
+} 
+input{
+    padding: 10px;
+    margin: 10px auto;
+}
+p a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+input[type="submit"] {
+    width: 25%;
+    font-size: 15px;
+    font-weight: 700;
+    background-color:coral;
+    color:white;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+background-color:blue;
+color:darkorange;
+}
+input::placeholder{
+    color: crimson;
+}
